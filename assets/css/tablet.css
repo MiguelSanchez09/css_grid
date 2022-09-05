@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 4fr 2fr 2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "item1 item1 item1 item1"
+        "item3 item3 item3 item3"
+        "item2 item4 item4 item4"
+        "item2 item7 item7 item7"
+        "item2 item6 item6 item5";
+}
